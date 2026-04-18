@@ -1,0 +1,53 @@
+/* Main window - semi-transparent for blur to show through */
+window {
+    background-color: rgba(20, 20, 30, 0.45);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Outer box */
+#outer-box {
+    margin: 12px;
+    padding: 8px;
+    background: transparent;
+}
+
+/* Search bar */
+#input {
+    background-color: rgba(255, 255, 255, 0.07);
+    color: #cdd6f4;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+#input:focus {
+    border-color: rgba(137, 180, 250, 0.5);
+    outline: none;
+}
+
+/* Scrollable area */
+#scroll {
+    background: transparent;
+}
+
+/* Each app entry */
+#entry {
+    background: transparent;
+    border-radius: 8px;
+    padding: 6px 10px;
+    color: #cdd6f4;
+}
+
+#entry:selected {
+    background-color: rgba(137, 180, 250, 0.2);
+    color: #89b4fa;
+}
+
+/* App name text */
+#text {
+    font-size: 13px;
+    color: inherit;
+}
